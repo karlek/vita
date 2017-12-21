@@ -15,11 +15,6 @@ M.Sc. in Computer Science
 
 A combined bachelor's and master's education in Computer Science. I specialize in data science in my master's.
 
-2012 – 2013  
-Stockholm University  
-
-Japanese language courses for two semesters.
-
 ## Work Experience
 
 2016 – Now  
@@ -78,5 +73,4 @@ mountains and hike.
 
 * Swedish: Native speaker
 * English: Fluent
-* Japanese: Conversational
 
