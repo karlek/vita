@@ -96,7 +96,7 @@ p {
 
 li::before {
     font-size: 1.2rem;
-    content: "❧";
+    content: ">";
 
     padding-right: 1%;
 
