@@ -60,7 +60,7 @@ section {
 }
 
 .last {
-    /* border-bottom: 1px dashed #aaa; */
+    border-bottom: 1px dashed #aaa;
 }
 
 section:last-child {
@@ -82,6 +82,11 @@ section:last-child {
     height: 60px;
 }
 
+.name > i {
+    display: inline-block;
+    margin-top: 1%;
+}
+
 .year { width: 12%; font-size: 1.1rem; overflow: visible; }
 .description { width: 80%; }
 
@@ -95,13 +100,12 @@ p {
 }
 
 li::before {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     content: ">";
 
     padding-right: 1%;
 
     position: relative;
-    top: 2px;
 }
 
 li { margin-left: 1%; margin-bottom: 1%; }
