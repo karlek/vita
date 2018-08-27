@@ -1,5 +1,5 @@
 @page {
-    margin: 5cm 4cm;
+    margin: 3cm 4cm;
 }
 
 @page :first {
@@ -60,7 +60,7 @@ section {
 }
 
 .last {
-    border-bottom: 1px dashed #aaa;
+    /* border-bottom: 1px dashed #aaa; */
 }
 
 section:last-child {
