@@ -7,37 +7,30 @@
 
 	<meta name="Description" content="A CV flavored with an ongoing computer engineering education and a passion for fractals.">
 	<meta name="Keywords" content="backend IT-security hacking programming development kth">
-	<meta name="Author" content="Henry Eklind / aka. karlek">
+	<meta name="Author" content="Henry Eklind / karlek">
 
 	<link rel="stylesheet" href="inc/css/reset.css">
 	<link rel="stylesheet" href="inc/css/style.css">
+	<link rel="stylesheet" href="inc/css/sweden.css">
 	<link rel="shortcut icon" href="/inc/img/fav.ico" type="image/x-icon">
-
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=EB+Garamond">
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Merriweather">
 
 	<title>Henry Eklind - CV</title>
 </head>
 <body>
-	<section>
-		<h1>Henry Eklind</h1>
-	</section>
+	<h1>Henry Eklind</h1>
+	<div id="contact">
+		<p id="mail" >
+			<a href="mailto:henry@karlek.io">henry@karlek.io</a>
+		</p>
+		<p id="github">
+			<a  href="https://github.com/karlek">github.com/karlek</a>
+		</p>
+		<p id="phone">
+			<span>+4673 783 96 15</span>
+		</p>
+	</div>
 
-	<section>
-		<div id="contact">
-			<p id="mail" >
-				<a href="mailto:henry@karlek.io">henry@karlek.io</a>
-			</p>
-			<p id="github">
-				<a  href="https://github.com/karlek">github.com/karlek</a>
-			</p>
-			<p id="phone">
-				<span>+4673 783 96 15</span>
-			</p>
-		</div>
-	</section>
-
-	<section class="last">
+	<section class="skills">
 		<h3>Developer skills</h3>
 		<p>
 			I write safe code in any language and I prefer the most suited langauge for each task. However, I am especially adept in Go and I have followed its progression since 2012.
@@ -56,95 +49,103 @@
 
 	<div class="break"></div>
 
-	<section class="last">
-		<h3>Education</h3>
-		<div class="container">
-			<div class="name">
-				<h2><b>KTH - The Royal Institute of Technology</b></h2>
-				<i>M.Sc. in Computer Science</i><br>
-			</div>
-			<span class="year">2013 — Present</span>
-			<p class="description">
-				A combined bachelor's and master's education in Computer Science. My master is specialized in machine learning and data science.
-			</p>
+	<div class="outer">
+		<div class="inner">
+			<section>
+				<h3>Work Experience</h3>
+				<div class="container">
+					<span class="year">2016 — 2020</span>
+					<div class="name">
+						<h2><b>Tink AB</b></h2>
+						<i>Backend developer</i><br>
+					</div>
+					<p class="description">
+						I reverse engineer bank application APIs for interoperability and write Java implementations of the APIs for our backend.
+					</p>
+				</div>
+			</section>
+			<section>
+				<div class="container">
+					<span class="year">2015</span>
+					<div class="name">
+						<h2><b>Protracer</b></h2>
+						<i>3D-software developer</i><br>
+					</div>
+					<p class="description">
+						During my time at Protracer (now known as Toptracer) I developed a visualization tool for plotting golf shots in 3D. The tool is used to track down bugs more intuitively.
+					</p>
+				</div>
+			</section>
+			<section>
+				<div class="container">
+					<span class="year">2012 — 2014</span>
+					<div class="name">
+						<h2><b>Bitsec AB & eLär Sverige AB</b></h2>
+						<i>IT security consultant</i><br>
+					</div>
+					<p class="description">
+						Worked with IT-security as a consultant where the tasks consisted of penetration testing and IT-forensics. Developed safe software for an IT related tool used in police raids.
+					</p>
+				</div>
+			</section>
 		</div>
 
 		<div class="break"></div>
 
-		<div class="container">
-			<div class="name">
-				<h2><b>Tohoku University, Japan</b></h2>
-				<i>Kato-Nishiyama Laboratory - Research semester</i><br>
-			</div>
-			<span class="year">Spring 2018</span>
-			<p class="description">
-				Researched the viability and benefits of applying deep reinforcement learning in network control systems for more performant network routing.
-			</p>
-		</div>
-	</section>
+		<div class="inner">
+			<section>
+				<h3>Education</h3>
+				<div class="container">
+					<span class="year">2013 — Present</span>
+					<div class="name">
+						<h2><b>KTH - The Royal Institute of Technology</b></h2>
+						<i>M.Sc. in Computer Science</i><br>
+					</div>
+					<p class="description">
+						A combined bachelor's and master's education in Computer Science. My master is specialized in machine learning and data science.
+					</p>
+				</div>
 
-	<div class="break"></div>
+				<div class="break"></div>
 
-	<section>
-		<h3>Work Experience</h3>
-		<div class="container">
-			<div class="name">
-				<h2><b>Tink AB</b></h2>
-				<i>Backend developer</i><br>
-			</div>
-			<span class="year">2016 – Present</span>
-			<p class="description">
-				I reverse engineer bank application APIs for interoperability and write Java implementations of the APIs for our backend.
-			</p>
+				<div class="container">
+					<span class="year">Spring 2018</span>
+					<div class="name">
+						<h2><b>Tohoku University, Japan</b></h2>
+						<i>Kato-Nishiyama Laboratory - Research semester</i><br>
+					</div>
+					<p class="description">
+						Researched the viability and benefits of applying deep reinforcement learning in network control systems for more performant network routing.
+					</p>
+				</div>
+			</section>
 		</div>
-	</section>
-	<section>
-		<div class="container">
-			<div class="name">
-				<h2><b>Protracer</b></h2>
-				<i>3D-software developer</i><br>
-			</div>
-			<span class="year">2015</span>
-			<p class="description">
-				During my time at Protracer (now known as Toptracer) I developed a visualization tool for plotting golf shots in 3D. The tool is used to track down bugs more intuitively.
-			</p>
-		</div>
-	</section>
-	<section class="last">
-		<div class="container">
-			<div class="name">
-				<h2><b>Bitsec AB & eLär Sverige AB</b></h2>
-				<i>IT security consultant</i><br>
-			</div>
-			<span class="year">2012 — 2014</span>
-			<p class="description">
-				Worked with IT-security as a consultant where the tasks consisted of penetration testing and IT-forensics. Developed safe software for an IT related tool used in police raids.
-			</p>
-		</div>
-	</section>
 
-	<div class="break"></div>
+		<div class="break"></div>
 
-	<section>
-		<h3>Voluntary work</h3>
-		<div class="container">
-			<div class="short-name">
-				<b>Computer Chapter at KTH</b>
-			</div>
-			<p class="description">
-				I have been active in the student life at KTH where I have among other things been a group leader for the reception of the new students, worked in the student bar, was active in the theater group and much more.
-			</p>
-		</div>
-	</section>
-	<section class="last">
-		<div class="container">
-			<div class="short-name">
-				<b>Scouting</b>
-			</div>
-			<p class="description">
-				I was a scout for 12 years where I thrived in the community and the mentality. It is also where I found my passion for nature which has made me climb mountains, dive in oceans, hike in pouring rain and love every moment of it.
-			</p>
-		</div>
-	</section>
+<!-- 		<div class="inner"> -->
+<!-- 			<section> -->
+<!-- 				<h3>Voluntary work</h3> -->
+<!-- 				<div class="container"> -->
+<!-- 					<div class="short-name"> -->
+<!-- 						<b>Computer Chapter at KTH</b> -->
+<!-- 					</div> -->
+<!-- 					<p class="description"> -->
+<!-- 						I have been active in the student life at KTH where I have among other things been a group leader for the reception of the new students, worked in the student bar, was active in the theater group and much more. -->
+<!-- 					</p> -->
+<!-- 				</div> -->
+<!-- 			</section> -->
+<!-- 			<section> -->
+<!-- 				<div class="container"> -->
+<!-- 					<div class="short-name"> -->
+<!-- 						<b>Scouting</b> -->
+<!-- 					</div> -->
+<!-- 					<p class="description"> -->
+<!-- 						I was a scout for 12 years where I thrived in the community and the mentality. It is also where I found my passion for nature which has made me climb mountains, dive in oceans, hike in pouring rain and love every moment of it. -->
+<!-- 					</p> -->
+<!-- 				</div> -->
+<!-- 			</section> -->
+<!-- 		</div> -->
+	</div>
 </body>
 </html>
